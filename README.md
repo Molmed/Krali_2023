@@ -42,7 +42,7 @@ You are ready to :rocket:
 
 5. outputs: The predictions from 4 are stored here by default in a csv format
 
-6. test_data: The public DNAm (GSE56600; 227 pediatric B-cell ALL samples ([Lee et al., 2015](https://doi.org/10.1093/nar/gkv103))) and GEX (GSE16150; 19 pediatric B-cell ALL samples ([Diedrich et al., 2021](https://doi.org/10.1038/s41375-021-01209-1))) datasets used for 4
+6. test_data: The public DNAm (GSE56600; 227 pediatric B-cell ALL samples ([Lee et al., 2015](https://doi.org/10.1093/nar/gkv103))) and GEX (GSE161501; 19 pediatric B-cell ALL samples ([Diedrich et al., 2021](https://doi.org/10.1038/s41375-021-01209-1))) datasets used for 4
 
 7. Train_Predict_modules: python modules used for ALLIUM's train/predict procedures that are utilized by the notebooks in 4 (see &#8595; Subtype prediction)
 
@@ -53,7 +53,7 @@ You are ready to :rocket:
 ### DNAm (Illumina 450K array or EPIC array data are compatible)
 
 + The dataset should be in a dataframe format with samples as rows and CpG sites as columns
-+ No further pre-processing is required (unless you need to correct for batch effects)
++ Check for batch effects in the data. If no batch effects are observed, no further pre-processing is required. If batch effects are observed, we strongly recommend correcting for batch effects prior using ALLIUM.
 + You can add information from a phenotype file if applicable, otherwise set the clinicaldatalist argument of the predictionsNSC as []
 
 
