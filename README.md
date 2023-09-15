@@ -34,7 +34,7 @@ You are ready to :rocket:
 
 1. ALLIUM_models: DNAm and GEX ALLIUM trained models are saved in a pickle (pkl) format. An imputer pickle file is provided for missing data imputation for the DNAm data
 
-2. ALLIUM_signatures: The 519 CpG sites and 425 genes selected by the initial feature selection step by ALLIUM that are used to train the model and for subtype prediction
+2. ALLIUM_signatures: The 379 CpG sites and 456 genes selected by the initial feature selection step by ALLIUM that are used to train the model and for subtype prediction
 
 3. Notebooks_GEX_preprocessing: Jupyter notebooks for GEX data preprocessing for data that were not aligned to our reference genome version (Python), as well as and RNA sequencing data normalization (R)(see &#8595; Data format & preproccecing for new cases)
 
