@@ -1,6 +1,6 @@
 # Multimodal classification of molecular subtypes in pediatric acute lymphoblastic leukemia  :girl: :boy:
 
-## We developed a multimodal model named :onion:ALLIUM:garlic: (ALL subtype Identification Using Machine learning) that utilizes either DNA methylation (DNAm) or gene expression (GEX) data as input to predict patient subtype.
+## We developed a multimodal model named :onion:[ALLIUM](https://doi.org/10.1038/s41698-023-00479-5):garlic: (ALL subtype Identification Using Machine learning) that utilizes either DNA methylation (DNAm) or gene expression (GEX) data as input to predict patient subtype.
 
 #### A) You need to create a conda environment as follows (use the .yml file that is provided):
 
@@ -112,3 +112,5 @@ Patient subtype prediction can work with two ways
 
 + datatype can be replaced with either DNAm or GEX depending on the data used
 
+## Publication
+Krali, O., Marincevic-Zuniga, Y., Arvidsson, G. et al. Multimodal classification of molecular subtypes in pediatric acute lymphoblastic leukemia. npj Precis. Onc. 7, 131 (2023). [https://doi.org/10.1038/s41698-023-00479-5](https://doi.org/10.1038/s41698-023-00479-5)
