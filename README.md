@@ -1,6 +1,6 @@
 # Multimodal classification of molecular subtypes in pediatric acute lymphoblastic leukemia  :girl: :boy:
 
-## We developed a multimodal model named :onion:[ALLIUM](https://doi.org/10.1038/s41698-023-00479-5):garlic: (ALL subtype Identification Using Machine learning) that utilizes either DNA methylation (DNAm) or gene expression (GEX) data as input to predict patient subtype.
+## We developed a multimodal model named :onion:[ALLIUM](https://doi.org/10.1038/s41698-023-00479-5):garlic: (ALL subtype Identification Using Machine learning) that utilizes either DNA methylation (DNAm) or gene expression (GEX) data as input to predict patient subtype. ALLIUMv2 is now available [here](https://github.com/Molmed/allium.git).
 
 #### A) You need to create a conda environment as follows (use the .yml file that is provided):
 
